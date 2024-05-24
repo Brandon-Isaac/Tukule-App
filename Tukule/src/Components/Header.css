@@ -1,18 +1,31 @@
-/* Header styles */
 .header {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
+  background-color: black;
+  color: bisque;
+  width: 100svh;
 }
 
-.header h1 {
-  color: #333;
-  font-size: 24px;
-  margin: 0;
+.logo {
+  max-height: 3em;
+}
+.logo img {
+  height: fit-content;
+}
+.nav {
+  position: absolute;
+  margin-right: 7px;
 }
 
-.header p {
-  color: #666;
-  font-size: 16px;
-  margin: 10px 0;
+.nav-list {
+  display: inline;
+  position: absolute;
+  left: 10px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
 }
