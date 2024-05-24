@@ -1,31 +1,47 @@
 .header {
-  background-color: black;
+  background-color: #d22630;
   color: bisque;
-  width: 100svh;
+  padding: 20px 0;
 }
-
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
 .logo {
-  max-height: 3em;
+  display: flex;
+  align-items: center;
 }
 .logo img {
-  height: fit-content;
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.logo img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 5px #fff);
 }
 .nav {
-  position: absolute;
-  margin-right: 7px;
+  height: 100%;
 }
 
 .nav-list {
-  display: inline;
-  position: absolute;
-  left: 10px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  align-items: center;
 }
 
-.nav-item {
+.nav-list li {
   margin-right: 10px;
   font-size: 20px;
+  color: #fff;
 }
 
 .nav-link {
   text-decoration: none;
+  color: #fff;
 }
